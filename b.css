@@ -1,0 +1,51 @@
+body
+{
+ background-color: palegreen ;
+display: flex; 
+flex-direction: row;
+/* justify-content: space-evenly; */
+flex-wrap: nowrap;
+}
+div
+{
+    display: inline-block;
+    text-align: center;
+    font-size: larger;
+    font-weight: 100;
+}
+
+#id1
+{
+height: 100px;
+width: 100px;
+ background-color: aqua;
+ flex-grow: 2;
+}
+#id2
+{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(44, 48, 48);
+    flex-grow: 2;
+}
+#id3
+{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(194, 231, 231);
+    
+}
+#id4
+{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(118, 42, 189);
+    
+}
+#id5
+{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(219, 18, 18);
+    
+}

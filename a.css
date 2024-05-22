@@ -1,0 +1,56 @@
+body
+{
+background-color: aquamarine;
+background-image: url(iron\ man.jpg);
+background-size: contain;
+}
+
+p
+{
+text-align: center;
+font-weight: 1000;
+
+
+}
+
+
+#id1
+{
+    text-align: center;
+    height: 50px;
+    background-color: pink;
+position: static;
+}
+
+#id2
+{
+    text-align: center;
+    height: 50px;
+background-color: pink;
+position: relative ;
+top :200px; 
+}
+#id3
+{
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    background-color: pink;
+ position: fixed ;
+ top :200px; 
+}
+
+#id4
+{
+    height: 50px;
+    text-align: center;
+background-color: pink;
+
+}
+#id5
+{
+    height: 50px;
+    text-align: center;
+background-color: pink;
+
+}
